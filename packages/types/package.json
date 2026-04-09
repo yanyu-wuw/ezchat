@@ -2,16 +2,11 @@
   "name": "@ezchat/types",
   "version": "0.1.0",
   "type": "module",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./src/index.js",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
+      "import": "./src/index.js"
     }
   },
-  "scripts": {
-    "build": "tsc",
-    "type-check": "tsc --noEmit"
-  }
+  "scripts": {}
 }

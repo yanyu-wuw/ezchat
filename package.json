@@ -9,14 +9,10 @@
     "dev": "turbo run dev --parallel",
     "build": "turbo run build",
     "start": "turbo run start --filter=server",
-    "lint": "turbo run lint",
-    "type-check": "turbo run type-check"
+    "lint": "turbo run lint"
   },
   "devDependencies": {
     "turbo": "^2.0.0",
-    "typescript": "^5.3.0",
-    "eslint": "^8.54.0",
-    "@typescript-eslint/eslint-plugin": "^6.13.0",
-    "@typescript-eslint/parser": "^6.13.0"
+    "eslint": "^8.54.0"
   }
 }
